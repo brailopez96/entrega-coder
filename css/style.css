@@ -1,0 +1,193 @@
+/* ----- RESET ----- */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ----- HEADER -----*/
+nav img{
+    height: 120px;
+    width: 250px;
+    justify-content: left;
+}
+
+header nav{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom:solid 1px grey;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    margin: 15px;
+    color: black;
+}
+
+/* ----- MAIN -----*/
+
+/* - - - - - ¿Por qué elegirnos? - - - - - */
+h1{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.card-principal{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    justify-content: space-around;
+    padding-left: 320px;
+    width: 80%;
+}
+
+.card-novedades{
+    width: 250px;
+    height: 320px;
+    border: 1px solid grey;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card-novedades img{
+    height: 250px;
+    width: 249px;
+}
+
+.card-novedades h4{
+    margin-bottom: 10px;
+}
+
+.card-novedades a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* - - - - - compramos tu usado - - - - - */
+
+.compra-usado{
+    background-image: url(../img/compra-usado.png);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+}
+
+.compra-usado h2{
+    color: white;
+    margin-left: 250px;
+}
+
+.compra-usado p{
+    color: white;
+    margin-left: 280px;
+}
+
+.compra-usado h2{
+    padding-top: 90px;
+}
+
+.compra-usado button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 330px;
+    padding: 8px;
+}
+
+/* - - - - - nuestras sucursales - - - - - */
+
+.ns h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nl{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nl h3,p{
+    padding: 5px;
+}
+
+.ns div div{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ----- FOOTER -----*/
+
+footer{
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+}
+
+footer div{
+    display: inline-block;
+    margin: 20px 100px 20px 100px;
+}
+
+footer div h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+footer div ul{
+    list-style-type: none;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    line-height: 25px;
+    color: black;
+}
+
+
+/* ----- SOBRE NOSOTROS -----*/
+
+.sobreNosotros{
+    width: 500px;
+    height: 400px;
+    text-align: start;
+    margin-right: 60px;
+}
+
+hr{
+    margin: 100px;
+}
+
+.bloque-principal div{
+    display: flex;
+    margin: 60px 0 60px 0;
+}
+
+.bloque-principal div div{
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.bloque-principal div div p{
+    padding-top: 40px;
+    max-width: 800px;
+    padding-left: 200px;
+}
